@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Movie Seeker.jpg" type="image/x-icon">
+    <title>Movie Seeker - Movie Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ------------------ Navigation Bar ------------------ -->
+    <nav class="navbar">
+        <img src="img/Movie Seeker.jpg" class="logo" alt="Logo">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#">Trending</a></li>
+            <li class="nav-items"><a href="#">Movies</a></li>
+            <li class="nav-items"><a href="#">Hollywood</a></li>
+            <li class="nav-items"><a href="#">Bollywood</a></li>
+        </ul>
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search">
+            <a href="http://3.82.233.74:8501">
+                <button class="sub-btn">Recommendations</button>
+            </a>
+        </div>
+    </nav>
+    <!-- ------------------ Carousel ------------------ -->
+    <div class="carousel-container">
+        <div class="carousel">
+        </div>
+    </div>
+    <!-- ------------------ Recommendation ------------------ -->
+    <h1 class="title">All time favorites</h1>
+
+    <div class="movies-list">
+        <button class="pre-btn"><img src="img/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="img/nxt.png" alt=""></button>
+        <div class="card-container">
+            <div class="card">
+                <img src="img/poster 4.webp" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Chichore</h2>
+                    <br>
+                    <h6 class="des">2019 ‧ Comedy/Sport ‧<br> 2h 23m</h6>
+                    <a href="https://youtu.be/t56jPOpGFts?si=-SqAdIDySF8lxGvz" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Hera Pheri.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Hera Pheri</h2>
+                    <br>
+                    <h6 class="des"> 2000 ‧ Comedy/Action ‧<br> 2h 36m</h6>
+                    <a href="https://youtu.be/m1zMmVwWr-M?si=iDqDV8g_OT9UgsVs" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/3_Idiots.webp" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">3 Idiots</h2>
+                    <br>
+                    <h6 class="des">2009‧PG-13 ‧<br>2h 50m</h6>
+                    <a href="https://youtu.be/K0eDlFX9GMc?si=UmklJZEiKMGdFgSC" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/images.jpeg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Barfi!</h2>
+                    <h6 class="des">2012 ‧ Romance/Comedy ‧<br> 2h 31m</h6>
+                    <a href="https://youtu.be/nQ3FYUgSjC8?si=b3DKhEf_6NCT1F-Q" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/drishyam.jpeg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Drishyam</h2>
+                    <br>
+                    <h6 class="des">Thriller/Crime ‧<br> 2h 43m</h6>
+                    <a href="https://youtu.be/AuuX2j14NBg?si=lOsHnBvCqIjYMn32" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/dhamaal.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Dhamaal</h2>
+                    <h6 class="des">2007 ‧ Comedy/Adventure ‧<br> 2h 16m
+                    </h6>
+                    <a href="https://www.youtube.com/watch?v=6hqN9FO3-aI" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Section 375.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Section 375</h2>
+                    <br>
+                    <h6 class="des"> 2019 ‧ Thriller/Crime ‧<br> 2h 5m</h6>
+                    <a href="https://youtu.be/UWjxS8EJ4Z8?si=Z4jkxcnwdhsuvMc9" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/BhagamBhag.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Bhagam Bhag</h2>
+                    <br>
+                    <h6 class="des">2006 ‧ Comedy/Thriller ‧<br> 2h 21m</h6>
+                    <a href="https://www.youtube.com/watch?v=ihCaohTJYCo" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/card 11.webp" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Dil Bechara</h2>
+                    <br>
+                    <h6 class="des">2020 ‧ Romance/Comedy ‧<br> 1h 41m</h6>
+                    <a href="https://youtu.be/GODAlxW5Pes?si=sllu9UWQucCNtIKt" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Welcome_poster_2007.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Welcome</h2>
+                    <br>
+                    <h6 class="des"> 2007 ‧ Comedy/Drama ‧<br> 2h 39m</h6>
+                    <a href="https://www.youtube.com/watch?v=QJCMdzuLG0I" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/72_Hours,_Martyr_who_never_Died.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">72 hours</h2>
+                    <br>
+                    <h6 class="des"> 2019 ‧ War/Action ‧<br> 2h 10m</h6>
+                    <a href="https://youtu.be/7xlZqxU7aM8?si=QUF5_-U_LgMgUYK6" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/shershaah.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Shershaah</h2>
+                    <br>
+                    <h6 class="des">2021 ‧ War/Action ‧<br> 2h 15m</h6>
+                    <a href="https://youtu.be/Q0FTXnefVBA?si=mNnx5-5MI_RncDMU" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Pathaan_film_poster.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Pathaan</h2>
+                    <br>
+                    <h6 class="des"> 2023 ‧ Action/Thriller ‧<br> 2h 26m</h6>
+                    <a href="https://youtu.be/vqu4z34wENw?si=7BXBeulCsNMDnzgN" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/card 12.webp" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">TanHaji</h2>
+                    <br>
+                    <h6 class="des"> 2020 ‧ Action/War ‧ 2h 15m</h6>
+                    <a href="https://youtu.be/cffAGIYTEHU?si=uJBXHcHzHvmMfXUo" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Golmaal-Fun_Unlimited.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Golmaal: Fun Unlimited</h2>
+                    <h6 class="des"> 2006 ‧ Comedy/Action ‧<br> 2h 10m
+                    </h6>
+                    <a href="https://www.youtube.com/watch?v=A1-PEkuuWi8" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------ Popular Shows ------------------ -->
+    <h1 class="title">Popular Shows</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="img/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="img/nxt.png" alt=""></button>
+        <div class="card-container">
+            <div class="card">
+                <img src="img/NCR DAYS.jpg" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">NCR Days</h2>
+                    <br>
+                    <h6 class="des">2022 ‧ Drama/Action <br></h6>
+                    <a href="https://youtu.be/JVLfxSJI4jE?si=iD1QLJ8cDj9BFmby" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/goblin.jpg" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Guardian: The Lonely and Great God</h2>
+                    <h6 class="des">2016 ‧ Drama ‧ 1 season<br></h6>
+                    <a href="https://www.youtube.com/watch?v=S94ukM8C17A" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/sAPNE.png" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Sapne Vs Everyone</h2>
+                    <br>
+                    <h6 class="des">2023 ‧ Drama/Action <br></h6>
+                    <a href="https://youtu.be/eOboQz4p0lM?si=MreTYp7_rmpTMaYa" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/suits.jpeg" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Suits</h2>
+                    <h6 class="des">2011 ‧ Drama ‧ 9 seasons<br></h6>
+                    <a href="https://www.youtube.com/watch?v=85z53bAebsI" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/sister.png" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Sisters </h2>
+                    <br>
+                    <h6 class="des">2022 ‧ Comedy <br></h6>
+                    <a href="https://youtu.be/tttd2KNXELQ?si=Q7D7q8t2dNjGgcj4" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/panchayat.jpg" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Panchayat</h2>
+                    <h6 class="des">2020 ‧ Drama ‧ 3 seasons<br></h6>
+                    <a href="https://www.youtube.com/watch?v=mojZJ7oeD_g" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/barfi part 1.jpg" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">BARFI</h2>
+                    <br>
+                    <h6 class="des">2022 ‧ Comedy/Action <br></h6>
+                    <a href="https://youtu.be/-Yt0kIp7lCo?si=7ds36HK1e44am4Hy" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Queen_of_Tears_poster.png" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Queen of Tears</h2>
+                    <br>
+                    <h6 class="des">2024 ‧ Drama ‧ 1 season<br></h6>
+                    <a href="https://www.youtube.com/watch?v=qgN3YCu8NmU" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/wrong number.png" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Wrong Number </h2>
+                    <br>
+                    <h6 class="des">2020 ‧ Love <br></h6>
+                    <a href="https://youtu.be/Yt27LlN7Gho?si=yHMLofNMJLw7_020" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/marry my husband.jpeg" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Marry My Husband</h2>
+                    <br>
+                    <h6 class="des">2024 ‧ Drama ‧ 1 season
+                    </h6>
+                    <a href="https://www.youtube.com/watch?v=lfJGSxXf9Xg" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/flames.jpeg" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Flames</h2>
+                    <br>
+                    <h6 class="des">2018 ‧ Romance ‧ 4 seasons</h6>
+                    <a href="https://youtu.be/NkdCgjqQq7s?si=JDj6ReYYVGSuIcQg" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------ New Releases ------------------ -->
+    <h1 class="title">New Releases</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="img/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="img/nxt.png" alt=""></button>
+        <div class="card-container">
+            <div class="card">
+                <img src="img/Stree_2.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Stree 2</h2>
+                    <br>
+                    <h6 class="des">2024 ‧ Horror/Comedy ‧<br> 2h 27m</h6>
+                    <a href="https://www.youtube.com/watch?v=KVnheXywIbY" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Kalki_2898_AD.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Kalki 2898 AD</h2>
+                    <br>
+                    <h6 class="des">2024 ‧ Sci-fi/Action ‧<br> 3h 1m</h6>
+                    <a href="https://www.youtube.com/watch?v=aninoDcPWo4" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/A_Quiet_Place_Day_One_(2024)_poster.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">A Quiet Place: Day One</h2>
+                    <h6 class="des">2024 ‧ Horror/Sci-fi ‧<br> 1h 39m
+                    </h6>
+                    <a href="https://www.youtube.com/watch?v=YPY7J-flzE8" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/legend of hanuman.webp" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">The Legend Of Hanuman (S4)</h2>
+                    <h6 class="des">2024 ‧ Action ‧<br> 4 seasons</h6>
+                    <a href="https://www.youtube.com/watch?v=ZG1hrxC7zyE&t=2s" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Mr._&_Mrs._Mahi_poster.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Mr. & Mrs. Mahi</h2>
+                    <br>
+                    <h6 class="des">2024 ‧ Romance/Sport ‧<br> 2h 19m</h6>
+                    <a href="https://www.youtube.com/watch?v=TtMjcP9cHIA" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Maharaj_poster.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Maharaj</h2>
+                    <br>
+                    <h6 class="des">2024 ‧ Drama/Crime ‧<br> 2h 11m</h6>
+                    <a href="https://www.youtube.com/watch?v=aFPRKT7ILtk" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Inside_Out_2_poster.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Inside Out 2</h2>
+                    <br>
+                    <h6 class="des"> 2024 ‧ Family/Comedy ‧<br> 1h 36m</h6>
+                    <a href="https://www.youtube.com/watch?v=LEjhY15eCx0" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/laptta.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Laapataa Ladies</h2>
+                    <br>
+                    <h6 class="des">2023 ‧ Comedy/Drama ‧<br> 2h 4m</h6>
+                    <a href="https://youtu.be/tF1JN2pT_sM?si=wkPFZSAINZAVycpm" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Fighter_film_teaser.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Fighter</h2>
+                    <br>
+                    <h6 class="des">2024 ‧ Action/Thriller ‧<br> 2h 46m</h6>
+                    <a href="https://youtu.be/6amIq_mP4xM?si=eM5o49VBMorno7cA" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/badnews.webp" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Bad Newz</h2>
+                    <br>
+                    <h6 class="des">2024 ‧ Drama/Comedy ‧<br> 2h 20m</h6>
+                    <a href="https://youtu.be/uV50UfcIT68?si=cj-F-cqNwB0X1mVt" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Crew.jpeg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Crew</h2>
+                    <br>
+                    <h6 class="des">2024 ‧ Comedy/Drama ‧<br> 1h 58m</h6>
+                    <a href="https://youtu.be/3uvfq4Cu8R8?si=EL4s3EXw1k1tjIMa" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Civil_War_2024_film_poster.jpeg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Civil War</h2>
+                    <br>
+                    <h6 class="des">2024 ‧ War/Action ‧<br> 1h 49m</h6>
+                    <a href="https://www.youtube.com/watch?v=c2G18nIVpNE" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/auro.jpeg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Auron Mein Kahan Dum Tha</h2>
+                    <h6 class="des">2024 ‧ Romance/Drama‧<br> 2h 24m </h6>
+                    <a href="https://youtu.be/2lr5h0IqArI?si=S35rBVC0ff26_nRR" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Article_370_film_poster.jpeg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Article 370</h2>
+                    <br>
+                    <nr></nr>
+                    <h6 class="des"> 2024 ‧ Action/Thriller ‧<br> 2h 38m</h6>
+                    <a href="https://youtu.be/6Pf6RUmq7S0?si=MfIwkNwM8jzDArl5" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/teri.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Teri Baaton Mein Aisa Uljha Jiya</h2>
+                    <h6 class="des">2024 ‧ Romance/Comedy ‧<br> 2h 23m</h6>
+                    <a href="https://youtu.be/w_N6d4ec79c?si=_0vRVf1W8XoPVVO8" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/chandu.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">Chandu Champion</h2>
+                    <br>
+                    <h6 class="des"> 2024 ‧ Sport/Action ‧<br> 2h 22m</h6>
+                    <a href="https://youtu.be/IHQQK_Wn5DM?si=3B6Lm7bWR0t6fgcR" target="_blank">
+                        <button class="trailer-btn">View Trailer</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------ JavaScript ------------------ -->
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
